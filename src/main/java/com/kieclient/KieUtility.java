@@ -37,5 +37,7 @@ public class KieUtility {
         for (KieContainerResource kieContainerResource : kieContainers) {
             System.out.println(kieContainerResource.getContainerId());
         }
+        SLATrackingCommand slatCommand = new SLATrackingCommand();
+        slatCommand.executeMethod();
     }
 }
